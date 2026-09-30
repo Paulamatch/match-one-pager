@@ -1771,7 +1771,7 @@ html,body,*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 
   <div class="tr" style="margin-top:28px">
     <div class="card"><div class="big grad" data-count="50" data-prefix="+" data-suffix="K €">+50K €</div><small>Facturación 2025</small></div>
-    <div class="card"><div class="big grad" data-count="85" data-prefix="+" data-suffix="K €">+85K €</div><small>Facturación 2026<br>hasta Q3</small></div>
+    <div class="card"><div class="big grad" data-count="95" data-prefix="+" data-suffix="K €">+95K €</div><small>Facturación 2026<br>hasta Q3</small></div>
     <div class="card"><div class="big grad" data-count="3">3</div><small>Clientes corporates<br>del top 10 mundial</small></div>
     <div class="card"><div class="big grad" data-count="500" data-prefix="+" data-suffix="K €">+500K €</div><small>Subvenciones obtenidas<br>a fondo perdido</small></div>
   </div>
@@ -1797,7 +1797,7 @@ html,body,*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
 
     <div class="card">
       <h3>Facturación · real y objetivo</h3>
-      <div class="chart"><svg id="fact" aria-hidden="true" focusable="false" viewBox="0 0 520 150"><line class="axis" x1="6" y1="118" x2="514" y2="118"/><path class="real" d="M6.0,102.67 L260.0,91.93"/><path class="proj" d="M260.0,91.93 L514.0,26.0"/><circle class="dot" cx="6.0" cy="102.67" r="4.5"/><text class="val" x="6.0" y="88.67" text-anchor="start">+50K €</text><text class="per" x="6.0" y="137" text-anchor="start">2025</text><circle class="dot" cx="260.0" cy="91.93" r="4.5"/><text class="val" x="260.0" y="77.93" text-anchor="middle">+85K €</text><text class="per" x="260.0" y="137" text-anchor="middle">2026-Q3</text><circle class="dot open" cx="514.0" cy="26.0" r="5"/><text class="val" x="514.0" y="12.0" text-anchor="end">+300K €</text><text class="per" x="514.0" y="137" text-anchor="end">Objetivo · 12 meses</text></svg></div>
+      <div class="chart"><svg id="fact" aria-hidden="true" focusable="false" viewBox="0 0 520 150"><line class="axis" x1="6" y1="118" x2="514" y2="118"/><path class="real" d="M6.0,102.67 L260.0,88.87"/><path class="proj" d="M260.0,88.87 L514.0,26.0"/><circle class="dot" cx="6.0" cy="102.67" r="4.5"/><text class="val" x="6.0" y="88.67" text-anchor="start">+50K €</text><text class="per" x="6.0" y="137" text-anchor="start">2025</text><circle class="dot" cx="260.0" cy="88.87" r="4.5"/><text class="val" x="260.0" y="74.87" text-anchor="middle">+95K €</text><text class="per" x="260.0" y="137" text-anchor="middle">2026-Q3</text><circle class="dot open" cx="514.0" cy="26.0" r="5"/><text class="val" x="514.0" y="12.0" text-anchor="end">+300K €</text><text class="per" x="514.0" y="137" text-anchor="end">Objetivo · 12 meses</text></svg></div>
       <p class="legend"><span class="real">Real</span><span class="proj">Proyección</span>
         <em>Facturación de cada periodo, no acumulada</em></p>
       <div style="margin-top:22px;padding-top:20px;border-top:1px solid var(--rule)">
@@ -2779,7 +2779,7 @@ window.mbGuard={run:run,sched:sched};
   }
   /* La gráfica de facturación, dibujada en píxeles reales. Los datos van aquí y
      no en el marcado porque son tres pares y el marcado ya lleva sus rótulos. */
-  var SERIE=[['2025',50,0],['2026-Q3',85,0],['Objetivo · 12 meses',300,1]];
+  var SERIE=[['2025',50,0],['2026-Q3',95,0],['Objetivo · 12 meses',300,1]];
   function grafica(){
     var svg=document.getElementById('fact'); if(!svg) return;
     var caja=svg.getBoundingClientRect(), W=Math.round(caja.width), H=150;
